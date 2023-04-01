@@ -1,82 +1,82 @@
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (1, 'Stefan Walker', 1);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (2, 'Daija Von', 1);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (3, 'Ariane Rodriguez', 1);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (4, 'Marques Nikolaus', 2);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (5, 'Rachelle Greenfelder', 0);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (6, 'Larissa White', 2);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (7, 'Fae Heidenreich', 1);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (8, 'Dino Will', 2);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (9, 'Eloy Stroman', 1);
-INSERT INTO customer (id, name, tier)
+INSERT INTO movie (id, name, tier)
 VALUES (10, 'Brisa O''Connell', 1);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (1, 'omnis quod consequatur', 'Games', 184.83);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (2, 'vel libero suscipit', 'Toys', 12.66);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (3, 'non nemo iure', 'Grocery', 498.02);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (4, 'voluptatem voluptas aspernatur', 'Toys', 536.80);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (5, 'animi cum rem', 'Games', 458.20);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (6, 'dolorem porro debitis', 'Toys', 146.52);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (7, 'aspernatur rerum qui', 'Books', 656.42);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (8, 'deleniti earum et', 'Baby', 41.46);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (9, 'voluptas ut quidem', 'Books', 697.57);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (10, 'eos sed debitis', 'Baby', 366.90);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (11, 'laudantium sit nihil', 'Toys', 95.50);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (12, 'ut perferendis corporis', 'Grocery', 302.19);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (13, 'sint voluptatem ut', 'Toys', 295.37);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (14, 'quos sunt ipsam', 'Grocery', 534.64);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (15, 'qui illo error', 'Baby', 623.58);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (16, 'aut ex ducimus', 'Books', 551.39);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (17, 'accusamus repellendus minus', 'Books', 240.58);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (18, 'aut accusamus quia', 'Baby', 881.38);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (19, 'doloremque incidunt sed', 'Games', 988.49);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (20, 'libero omnis velit', 'Baby', 177.61);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (21, 'consectetur cupiditate sunt', 'Toys', 95.46);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (22, 'itaque ea qui', 'Baby', 677.78);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (23, 'non et nulla', 'Grocery', 70.49);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (24, 'veniam consequatur et', 'Books', 893.44);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (25, 'magnam adipisci voluptate', 'Grocery', 366.13);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (26, 'reiciendis consequuntur placeat', 'Toys', 359.27);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (27, 'dolores ipsum sit', 'Toys', 786.99);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (28, 'ut hic tempore', 'Toys', 316.09);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (29, 'quas quis deserunt', 'Toys', 772.78);
-INSERT INTO product (id, name, category, price)
+INSERT INTO genre (id, name, category, price)
 VALUES (30, 'excepturi nesciunt accusantium', 'Toys', 911.46);
 INSERT INTO product_order (id, order_date, delivery_date, status, customer_id)
 VALUES (1, '2021-02-28', '2021-03-08', 'NEW', 5);
