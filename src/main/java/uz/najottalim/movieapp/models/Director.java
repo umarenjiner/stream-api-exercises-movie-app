@@ -12,7 +12,6 @@ import java.util.List;
 public class Director {
     private int id;
     private String name;
-    private int oscarCount;
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private List<Movie> movies;

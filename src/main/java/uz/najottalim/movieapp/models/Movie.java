@@ -18,6 +18,8 @@ public class Movie {
     // qancha pul sarflangani
     private double spending;
     private double rating;
+    // oscar yutgan yutmaganligini bildiradi
+    private boolean winOscar;
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private List<Genre> genres;
