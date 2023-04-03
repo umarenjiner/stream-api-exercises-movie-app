@@ -74,12 +74,10 @@ public class StreamMovieAppExercise {
     @Test
     @DisplayName("Har bitta rejissorning olgan kinolar sonini chiqaring")
     public void exercise2() {
-        var solution2 = directorRepo.findAll()
-                .stream()
-                .flatMap(director -> director.getMovies().stream())
-                .count();
+        Map<Director,Integer> solution2 = directorRepo.findAll()
+                        .stream()
+                                .collect(Collectors.toMap(director -> director,director -> director.getMovies().size()));
         System.out.println(solution2);
-
 
     }
 
